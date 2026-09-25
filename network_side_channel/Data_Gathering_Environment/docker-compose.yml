@@ -1,0 +1,8 @@
+version: '2'
+services:
+  isolated_browser:
+    build: ./container__isolated_browser
+    ports:
+      - "127.0.0.1:5900:5900"
+    stdin_open: true
+    tty: true

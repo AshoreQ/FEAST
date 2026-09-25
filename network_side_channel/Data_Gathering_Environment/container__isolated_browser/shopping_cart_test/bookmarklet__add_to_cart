@@ -1,0 +1,1 @@
+javascript:document.querySelector("#isCartBtn_btn").click()
